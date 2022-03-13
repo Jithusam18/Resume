@@ -166,6 +166,8 @@ h5{
 @media (max-width: 1175px) {
 section{
   padding: 0 3.5rem;
+  
+  width: auto;
 }
 .h2-a{
 font-size: 1.8rem;
