@@ -1,0 +1,190 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 0 4rem;
+  margin-bottom: 20px;
+}
+.row1{
+  margin-bottom: 10px;
+}
+.row{
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+}
+p,li{
+    font-family: 'Montserrat' ,sans-serif;
+    font-weight: 300;
+}
+
+/*Intro*/
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+  font-weight: 200;
+}
+.introtitle{
+  text-align: center;
+  font-weight:200;
+  color: #C4C4C4;
+  font-size: 20px;
+}
+.introbio {
+  text-align: center;
+  padding: 20% 6rem;
+  position: relative;
+  animation-name: animation1;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+h5{
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+i{
+  padding-top: 10px;
+}
+a{
+ color: white;
+}
+
+@keyframes animation1{
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.myimg{
+   padding: 0 5.3rem;
+   position: relative;
+   animation-name: myimg1;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   animation-timing-function: ease-in-out;
+}
+
+@keyframes myimg1 {
+  from{
+
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+/*About Me*/
+
+.abme1{
+  text-align: center;
+  padding: 18.5rem 0;
+
+}
+
+.abme2{
+  padding: 13rem 2rem;
+  background-color: white;
+  color: black;
+}
+.h2-a{
+  font-weight: lighter;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+  padding: 4rem;
+  margin: 0;
+}
+
+/*Work Experience*/
+.h2-b{
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.wexp2{
+  padding: 10rem 5rem;
+  background-color: white;
+  color: black;
+}
+.wexp1{
+  text-align: center;
+  padding: 20.4rem 0;
+}
+.jobs,.edup{
+  padding: 1rem 10rem;
+}
+.edu{
+  margin-bottom: 1rem;
+}
+
+.edu1{
+  text-align: center;
+  padding: 16rem 0;
+}
+.edu2 {
+  justify-content: center;
+  padding: 10% 5%;
+  background-color: white;
+  color: black;
+}
+h5{
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+ .introbio{
+   padding: 10% 6rem;
+ }
+ .edu2{
+   padding: 8% 0;
+ }
+ .jobs{
+   padding: 5% 5%;
+ }
+}
+
+@media (max-width: 1175px) {
+section{
+  padding: 0 3.5rem;
+}
+.h2-a{
+font-size: 1.8rem;
+}
+  .jobs{
+    padding: 8% 8%;
+  }
+  .edu2{
+    padding: 5% 0;
+  }
+}
+@media (max-width: 990px) {
+  .row1{
+    text-align: center;
+  }
+  img{
+    width: 50%;
+  }
+  .abme1,.wexp1,.edu1{
+    padding: 5% 2%;
+  }
+}
